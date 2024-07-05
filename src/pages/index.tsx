@@ -9,7 +9,11 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const router = useRouter();
   useEffect(() => {
-    router.push("/assets/presentation/presentation.pdf");
+    // router.push("/assets/presentation/presentation.pdf");
   }, [router]);
-  return <></>;
+  return (
+    <>
+      <p>Home page</p>
+    </>
+  );
 }
